@@ -5,7 +5,7 @@ import { VerseContext } from "../VerseContext/VerseContext";
 function VerseInfo() {
   const { verseInfo } = useContext(VerseContext);
 
-  return <p>{verseInfo}</p>;
+  return <p className="verse-info">{verseInfo}</p>;
 }
 
 export { VerseInfo };

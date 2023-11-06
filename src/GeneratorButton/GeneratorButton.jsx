@@ -23,7 +23,7 @@ function GeneratorButton() {
   return (
     <div className="generator-container">
       <button onClick={generateVerse} className="generator-button">
-        Generate Verse
+        Generar Versículo
       </button>
     </div>
   );

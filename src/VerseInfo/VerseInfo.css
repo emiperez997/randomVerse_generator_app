@@ -1,6 +1,7 @@
 .verse-info {
-  font-size: 1.2em;
-  line-height: 1.5;
+  font-size: 1em;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
   font-weight: 700;
   color: var(--light);
   text-align: center;

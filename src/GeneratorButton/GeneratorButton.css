@@ -1,14 +1,20 @@
 .generator-button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 10px 5px;
+
   font-size: 1em;
-  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  font-weight: 700;
   font-family: inherit;
   background-color: var(--light);
   color: var(--dark);
   cursor: pointer;
   transition: border-color 0.25s;
+}
+
+.generator-button:hover {
+  transform: scale(1.05);
 }
 
 .generator-container {
@@ -18,7 +24,5 @@
   justify-content: center;
   height: auto;
   width: 100%;
-  padding: 20px 10px;
-
   border-radius: 15px;
 }
