@@ -1,13 +1,17 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: auto;
-  width: 500px;
-  padding: 20px 10px;
+  align-self: center;
+  flex-direction: column;
   background-color: var(--dark);
-  border-radius: 15px;
+  gap: 20px;
+  padding: 30px;
+  border-radius: 20px;
 }
 
 .loading {
@@ -16,8 +20,6 @@
   align-items: center;
   justify-content: center;
   height: auto;
-  width: 500px;
-  padding: 20px 10px;
   background-color: var(--dark);
   border-radius: 15px;
 }
@@ -52,5 +54,17 @@
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@media (width > 815px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media (width > 1200px) {
+  .container {
+    width: 50%;
   }
 }

@@ -2,11 +2,8 @@
   font-size: 1.2em;
   line-height: 1.5;
   font-weight: 400;
-  color: #ffffff;
+  color: var(--light);
   text-align: center;
   margin: 0;
   padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }
