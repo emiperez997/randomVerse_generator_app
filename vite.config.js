@@ -9,7 +9,7 @@ export default defineConfig(({ command }) => {
   };
 
   if (command !== "serve") {
-    config.base = "/Users/emipe/Programacion/frontend/verse-generator-app";
+    config.base = "/randomVerse_generator_app/";
   }
 
   return config;
