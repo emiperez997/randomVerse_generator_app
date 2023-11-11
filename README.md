@@ -1,4 +1,4 @@
-# Random Bible Verse Project
+# Random Bible Verse App
 
 ## Details
 This app will generate a random bible verse with only one click.
